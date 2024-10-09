@@ -1,0 +1,39 @@
+// 修改组件库内部的样式，有些是可以直接覆盖的，有些不能
+// 1. 需要自定义一个类名空间
+// 2. 先在浏览器里面调试样式
+// 3. 把调试好的类名放在这个类名里面
+// 4. 在App.vue里面引入这个文件
+// 5. 在组件内需要改样式的元素的父元素加上这个类名
+.w-choose-icon-dialog-body-height {
+  .el-dialog__body {
+    height: 500px;
+    overflow-y: scroll;
+  }
+  // 定义滚动条的整体样式
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  // 定义滚动条轨道的样式
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+  }
+  // 定义滚动条滑块的样式
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+  // 定义滚动条滑块子在悬停时候的样式
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  // 定义滚动条按钮的样式
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  // 定义滚动条角落的样式
+  ::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+  }
+}

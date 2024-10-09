@@ -2,6 +2,7 @@
   <router-view></router-view>
 </template>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+@import './styles/base';
+@import './styles/ui';
 </style>

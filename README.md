@@ -10,3 +10,6 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 
 ## 2. 伸缩菜单
 伸缩菜单以及aside，header的抽取，内容的二级子路由
+
+## 3. 图标选择器
+点击选择图标，弹出弹窗，然后点击图标，复制出我们需要的标签
