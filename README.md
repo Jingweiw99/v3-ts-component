@@ -7,3 +7,6 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 ## 1. 引入icon
 详情见[icon官方文档](https://element-plus.org/zh-CN/component/icon.html#icon-%E5%9B%BE%E6%A0%87)
 添加了将类似watch组件修改为el-icon-watch组件，大小都修改为1em
+
+## 2. 伸缩菜单
+伸缩菜单以及aside，header的抽取，内容的二级子路由
